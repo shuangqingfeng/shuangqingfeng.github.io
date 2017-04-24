@@ -1,17 +1,20 @@
-# Hexo Configurationx   xmlx    
+# Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Afeng blog
-subtitle: 一息若存，希望不灭
-description: While there is life there is hope.
+title: Afeng's blog 
+subtitle: While there is life there is hope.一息若存，希望不灭
+description: A android development engineer 
 author: Afeng
-language: zh-cn
-timezone:
+language: zh-CN
+timezone: 
+email: s315460509@163.com
+keywords: "android,java,程序猿,"
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://github.com/shuangqingfeng
+url: /
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -33,14 +36,14 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace:
+  tab_replace: 
 
 # Category & Tag
 default_category: uncategorized
@@ -62,77 +65,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-yilia
+theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-   type: git
-   repo: https://github.com/shuangqingfeng/shuangqingfeng.github.io.git
-   branch: master
-   
-   
-
-
-
-# Header
-#定义菜单
-menu:
-  #主页,所有文章
-  主页: /
-  前端开发: /categories/front
-  工作日志: /categories/work
-  点滴生活: /categories/life
-#定义子菜单
-subnav:
-  github: "https://github.com/Kiritor"
-  weibo: "http://weibo.com/3206206100/profile?topnav=1&wvr=6"
-  rss: "#"
-  zhihu: "http://www.zhihu.com/people/kiritor"
-  #douban: "#"
-  #mail: "#"
-  #facebook: "#"
-  #google: "#"
-  #twitter: "#"
-  #linkedin: "#"
-rss: /atom.xml
-# Content
-excerpt_link: More
-#按年存档
-archive_yearly: true 
-fancybox: true
-mathjax: true
-# Miscellaneous
-google_analytics: ''
-favicon: /img/leaves.ico
-#你的头像url
-avatar: "http://kiritor.github.io/img/lcore.jpg"
-#是否开启分享
-baidushare: true
-#是否开启云标签
-tagcloud: true
-#是否开启多说
-duoshuo_shortname: kiritor
-#是否开启多说最近评论:悬浮于首页
-recentComment: true
-#是否开启最近通知
-recent: true
-recentContent: 最近研究shiro中......
-#是否开启微简历
-resume: true
-#是否开启友情链接
-#不开启——
-friends: false
-#开启——
-#friends:
-  #奥巴马的博客: http://localhost:4000/
-  #卡卡的美丽传说: http://localhost:4000/
-   #本泽马的博客: http://localhost:4000/
-  #吉格斯的博客: http://localhost:4000/
-  #习大大大不同: http://localhost:4000/
-  #托蒂的博客: http://localhost:4000/
-#是否开启“关于我”。
-#不开启——
-#aboutme: false
-#开启——
-aboutme: 乐于分享,喜欢环境音乐,爱看动漫,偶尔写写技术博客的小程一枚...
+  type: git
+  repository: https://github.com/shuangqingfeng/shuangqingfeng.github.io.git
+  branch: master
